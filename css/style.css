@@ -325,3 +325,34 @@ body {
 	height: 30px;
 	background-image: url(../images/arrow-black-icon.svg);
 }
+
+/* ========================== */
+/* === THE BEST APARTMENT === */
+/* ========================== */
+
+.best {
+	min-height: 100vh;
+	text-align: right;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.best__title {
+	max-width: 492px;
+	margin: 0 0 15px auto;
+	padding-top: 68px;
+	font-family: "PT Serif", serif;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 48px;
+	color: white;
+}
+
+.best__btn {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+	padding: 16px 18px;
+}
