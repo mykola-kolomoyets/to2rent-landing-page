@@ -1,0 +1,97 @@
+/* ============= */
+/* === FONTS === */
+/* ============= */
+
+@font-face {
+  font-family: "RobotoCondensed";
+	src: url("../fonts/RobotoCondensed-Regular.woff2") format("woff2"), 
+			url("../fonts/RobotoCondensed-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PTSerif";
+	src: url("../fonts/PTSerif-Regular.woff2") format("woff2"), 
+			url("../fonts/PTSerif-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ===================== */
+/* === COMMON STYLES === */
+/* ===================== */
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: "RobotoCondensed", sans-serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: black;
+}
+
+/* ============== */
+/* === HEADER === */
+/* ============== */
+
+.header {
+	text-align: center;
+}
+
+.header__logo {
+	padding: 88px 0 60px;
+}
+
+.menu {
+	border-top: 2px solid #c4c4c4;
+}
+
+.menu__list {
+	display: flex;
+	justify-content: center;
+}
+
+.menu__list-item {
+	width: 300px;
+}
+
+.menu__list-item:first-child {
+	border-left: 1px solid #c4c4c4;
+}
+
+.menu__list-item:last-child {
+	border-right: 1px solid #c4c4c4;
+}
+
+.menu__list-link {
+	font-size: 24px;
+	line-height: 28px;
+	color: #888888;
+	text-decoration: none;
+	display: block;
+	padding: 34px 10px 38px;
+	border-left: 1px solid #c4c4c4;
+	border-right: 1px solid #c4c4c4;
+	transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+}
+
+.menu__list-link--active,
+.menu__list-link:hover {
+	background-color: black;
+	color: white
+}
