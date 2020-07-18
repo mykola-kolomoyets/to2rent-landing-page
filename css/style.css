@@ -95,3 +95,42 @@ body {
 	background-color: black;
 	color: white
 }
+
+/* =============== */
+/* === SLIDER ==== */
+/* =============== */
+
+.slider {
+
+}
+
+.slider__item {
+	min-height: 600px;
+	
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+
+.slick-arrow {
+	position: absolute;
+	border: none;
+	background: transparent;
+	outline: none;
+	cursor: pointer;
+	top: 50%;
+	z-index: 5;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+}
+
+.slick-next {
+	right: 20px;
+}
+
+.slick-prev {
+	left: 20px;
+}
